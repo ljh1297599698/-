@@ -1,0 +1,1 @@
+kextstat | grep -v "com.apple" | grep -v "Energy"

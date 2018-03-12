@@ -1,0 +1,11 @@
+into method label _Q11 replace_content
+begin
+// Brightness Down\n
+Notify (PS2K, 0x20)\n
+end;
+
+into method label _Q12 replace_content
+begin
+// Brightness Up\n
+Notify (PS2K, 0x10)\n
+end;
